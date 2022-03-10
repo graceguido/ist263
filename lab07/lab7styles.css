@@ -1,0 +1,10 @@
+h1, h2 {color: #5F0F40;}
+body {background-color: #A7FCC3;}
+p, li, ul{color: #9e6586}
+a {color: purple;}
+a:hover {color: #569961}
+a:visited {color: #404040}
+nav {background-color: white; padding: 10px;margin-bottom: 30px;}
+nav a {color: #5b3a94;}
+nav a:visited {color: aqua;}
+nav a:hover {color: #de7cd1;}
