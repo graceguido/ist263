@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset ="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="lab8styles.css">
+    <style>
+        .row1 {display: flex;flex-direction: row; background-color: white;margin: 10px;border-radius: 1em;}
+        .row2 {display: flex;flex-direction: row;background-color: white;margin: 10px;border-radius: 1em;}
+        .row1, .row2 {padding:20px}
+        .row1cols {margin: 20px;}
+        .row2cols {margin: 20px}
+    </style>
+</head>
+<body>
+    <nav> 
+        <a href="index.html">Home |</a>
+        <a href="skills.html">Skills |</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+    <h1>Contact</h1>
+    <div class="row1">
+        
+        <div class="row1cols"><h2>Address</h2>
+            <p>Grace Guido</p><p>170 Small Road, Apt. 3 Syracuxe, NY, 13244</p></div>
+        <div class="row1cols"><br><br><br><br><a href="https://www.linkedin.com/in/gracegguido/">My LinkedIn Profile</a><br><a href="malito:ggguido@syr.edu">Grace Guido Email</a><br></div>
+    </div>
+    <div class="row2">
+        <div class="row2cols"><form action="https://formspree.io/f/xpzbdlzz" method="post">
+            <label for="fullname">What is your name?</label>
+            <input type="text" name="fullname" id="fullname"><br>
+            <label for="contactme?">Why do you wish to contact me?</label>
+            <textarea name="contactme?" id="contactme?"></textarea><br>
+            <label for="number">What is your email?</label>
+            <textarea name="number" id="number"></textarea>
+            
+            <br>What is your occupation?<br>
+            <label for="student">Student</label>
+            <input type="radio" id="student" name="occupation">
+            <label for="professor">Professor</label>
+            <input type="radio" id="professor" name="occupation">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="occupation"><br>
+
+            <input type="submit" value="submit">
+        </form></div>
+        <div class="row2cols"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.9686431651576!2d-76.12421822217554!3d43.021047179250125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f37d6b266989%3A0x1cd8e71636e57999!2s170%20Small%20Rd%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1644510748626!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br></div>
+    </div>
+</body>
+</html>
