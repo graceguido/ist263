@@ -8,7 +8,7 @@ nav {background-color: white; padding: 10px;margin-bottom: 30px;}
 nav a {color: #5b3a94;}
 nav a:visited {color: aqua;}
 nav a:hover {color: #de7cd1;}
-.img1 {float:left; margin-right: 10px;}
+.img1 {float:left; margin-right: 10px;max-width: 100%;}
 .clear {clear: both;}
 .quote {float: right}
 .part2 {display: flex;}
@@ -21,3 +21,8 @@ nav a:hover {color: #de7cd1;}
 .skills {display: flex; flex: 3;justify-content: space-between;margin-top: 50px;}
 .otherskills {background-color: white;border-radius: 1em;margin: 0 auto; width: 30%;flex: 1;padding: 10px;}
 .flexbox2 {display:flex; margin: 15px; padding: 15px;}
+.row2 {flex-wrap: wrap;}
+@media only screen and (max-width: 600px) {
+nav a {display: block; width: 100%;}
+span {display: none;}
+}
