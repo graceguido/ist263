@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        1. HTML link to anchor to our content area
+        2. Put an id attirubte into the place you want the anchor to go
+        3. Hide and show skip to content
+        4. style the skip to content link 
+        5. Style the a href
+        */
+        #skip {
+            position: absolute; /* Means take it out of the page flow, use left to set position */ 
+            left: -999px; 
+            background-color: orange;
+            padding: 5px; 
+        }
+        #skip:focus {
+            left: 10px; 
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#content" id="skip">Skip to content</a>
+        <a href="http://twitter.com" tabindex="4">Twitter</a>
+        <a href="index.html" tabindex="1">Home</a>
+        <a href="skills.html" tabindex="2">Skills</a>
+        <a href="contact.html" tabindex="3">Contact</a>
+    </nav>
+
+    <main>
+        <h1>Accessibility</h1>
+            <h2>Semantic Tags</h2>
+                <h3>Aside</h3>
+                <h3>Nav</h3>
+                <h3>Footer</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi porro eaque molestias omnis aspernatur, quo eligendi sequi quaerat architecto iste? Perferendis ipsam ex sit assumenda est dignissimos mollitia repudiandae nostrum.</p>
+            <h2>Heading Tags in Hierarchy</h2>
+    </main>
+
+    <footer id="content">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores natus est dolor! Consequuntur hic, libero consequatur necessitatibus sunt deleniti possimus ipsum modi, perferendis asperiores tenetur non beatae omnis molestias perspiciatis.</p>
+    </footer>
+</body>
+</html>
