@@ -1,0 +1,11 @@
+.box1, .box2, .box3 {display: flex; justify-content: center;padding: 10px;column-gap: 10px;}
+.name {text-align: center; font-family:'Cormorant Garamond', serif;font: bold; font-size: 3em;}
+.navcenter {display:flex; justify-content:center; padding: 20px;}
+.nav a {color: black;}
+.row1 {justify-content: space-between;}
+.headline {text-align: center; font-family:'Cormorant Garamond'}
+.footer {display: flex}
+body {background-color: black;}
+.banner {background-color: #d9b4c8; padding: 10px;}
+nav a {color: white}
+.footer {color: white}
