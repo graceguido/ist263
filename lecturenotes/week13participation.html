@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function right (){
+            document.getElementById('right').style.color = 'green'
+        }
+        function wrong (){
+            document.getElementById('wrong').style.color = 'red'
+        }
+    </script>
+</head>
+<body>
+    <p>What is Grace's Favorite color?</p>
+    <p id="right" onclick="right();">Blue</p>
+    <p id="wrong" onclick="wrong();">Yellow</p>
+</body>
+</html>
