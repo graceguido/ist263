@@ -1,11 +1,16 @@
 .box1, .box2, .box3 {display: flex; justify-content: center;padding: 10px;column-gap: 10px;}
-.name {text-align: center; font-family:'Cormorant Garamond', serif;font: bold; font-size: 3em;}
-.navcenter {display:flex; justify-content:center; padding: 20px;}
+.name, .bagheading {text-align: center; font-family:'Cormorant Garamond', serif;font: bold; font-size: 3em;}
+.navcenter, .navbag {display:flex; justify-content:center; padding: 20px;}
 .nav a {color: black;}
 .row1 {justify-content: space-between;}
-.headline {text-align: center; font-family:'Cormorant Garamond'}
+.headline, .mybagheadline {text-align: center; font-family:'Cormorant Garamond'}
 .footer {display: flex}
-body {background-color: black;}
+.mainbody {background-color: black;}
 .banner {background-color: #d9b4c8; padding: 10px;}
-nav a {color: white}
+.navcenter a {color: white}
 .footer {color: white}
+.pics {float: left}
+.clear {clear:both; padding: 10px;}
+.navbag a{color: black}
+.looksbox1, .looksbox2, .looksbox3 {display:flex; justify-content:space-evenly; padding: 30px;}
+.queentext {float: right; text-align:center}
