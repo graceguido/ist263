@@ -1,16 +1,49 @@
-.box1, .box2, .box3 {display: flex; justify-content: center;padding: 10px;column-gap: 10px;}
+.box1, .box2, .box3 {display: flex; justify-content: center;padding: 10px;column-gap: 10px; flex-wrap: wrap;}
 .name, .bagheading {text-align: center; font-family:'Cormorant Garamond', serif;font: bold; font-size: 3em;}
 .navcenter, .navbag {display:flex; justify-content:center; padding: 20px;}
 .nav a {color: black;}
 .row1 {justify-content: space-between;}
-.headline, .mybagheadline {text-align: center; font-family:'Cormorant Garamond'}
+.headline, .mybagheadline {text-align: center; font-family:'Cormorant Garamond'; color: #231557;}
 .footer {display: flex}
+.footerbag, .footerlooks {display:flex; color: black;}
+.footerbag {clear:both}
 .mainbody {background-color: black;}
-.banner {background-color: #d9b4c8; padding: 10px;}
+.banner {background-color: #d9b4c8; padding: 10px; max-width: 100%;}
 .navcenter a {color: white}
 .footer {color: white}
 .pics {float: left}
 .clear {clear:both; padding: 10px;}
 .navbag a{color: black}
-.looksbox1, .looksbox2, .looksbox3 {display:flex; justify-content:space-evenly; padding: 30px;}
-.queentext {float: right; text-align:center}
+.looksbox1, .looksbox2, .looksbox3 {display:flex; justify-content:space-evenly; padding: 30px;flex-wrap: wrap;}
+.queentext {display:flex;background-color:#d9b4c8; border-radius: 1em; padding: 20px; margin: 20px; flex: 2;}
+.deadpics {display:flex; flex:1}
+.promqueenheading {text-align:center}
+.inmybag {clear: both; display: flex; flex-wrap: wrap;}
+.name
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #ffffff 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-decoration-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+
+  vertical-align: middle;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
