@@ -18,7 +18,7 @@
 .queentext {display:flex;background-color:#d9b4c8; border-radius: 1em; padding: 20px; margin: 20px; flex: 2;}
 .deadpics {display:flex; flex:1}
 .promqueenheading {text-align:center}
-.inmybag {clear: both; display: flex; flex-wrap: wrap;}
+.inmybag {clear: both; padding:10px; display: flex; flex-wrap: wrap;}
 .name
 {
    text-transform: uppercase;
